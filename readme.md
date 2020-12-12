@@ -14,6 +14,7 @@ Each *Section* will focus on one problem and will be broken up into **Chapters**
 
 ## Outline (Work in Progress)
 
+```
 Section 1: Building a Tree Notation Library in an Existing Language
  Chapter 1: Grid Notation and Basic Parsing
  Chapter 2: Adding Useful Read and Write Methods
@@ -26,6 +27,7 @@ Section 2: Tree Notation for Non-Programmers
  Chapter 1: Tree Notation with Just Pen and Paper
 Section 3: Tree Notation and Hardware Implications
 Section 4: Tree Notation and Connections with MathDSLs and the Physical Sciences
+```
 
 ## Before you begin
 
