@@ -6,7 +6,7 @@ This book aims to explain the core ideas of Tree Notation so that you can levera
 
 #### Sections
 
-The book will be broken up into **Sections**. Each *Section* will be targetted toward a different audience. The first *Section* will be written for people that want to build Tree Notation libraries in their favorite programming language(s). 
+The book will be broken up into **Sections**. Each *Section* will be targeted toward a different audience. The first *Section* will be written for people that want to build Tree Notation libraries in their favorite programming language(s). 
 
 #### Chapters
 
@@ -20,7 +20,7 @@ Section 1: Building a Tree Notation Library in an Existing Language
  Chapter 2: Adding Useful Read and Write Methods
  Chapter 3: Parsing to Types
  Chapter 4: Compiling to Other Languages
- Chapter 5: Grammers
+ Chapter 5: Grammars
  Chapter 6: Combining Grammars
  Chapter 7: Visual IDEs
 Section 2: Tree Notation for Non-Programmers
@@ -72,7 +72,7 @@ You take a look at one of the pages on Nursinos website:
  </tbody>
 <table>`
 
-You have a hunch that a "simple design" is a "good design". You have this hunch because one time you visited the Egyptian Museum in Cairo, and noticed that the sandals the Pharoahs wore had the exact same simple design you were wearing on your feet 3,000 years later.
+You have a hunch that a "simple design" is a "good design". You have this hunch because one time you visited the Egyptian Museum in Cairo, and noticed that the sandals the Pharaohs wore had the exact same simple design you were wearing on your feet 3,000 years later.
 
 So you decide your strategy will be to start at the end—come up with the simplest representation of the page above, that is simple today and will be just as simple in 20 years, and then build your MonkeyBanana to work with that.
 
