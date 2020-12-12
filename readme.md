@@ -53,7 +53,7 @@ You know that Nursinos have thousands of web pages and their nurses are busy wit
 
 You take a look at one of the pages on Nursinos website:
 
-```
+```html
 <title>Nursinos Services Offered</title>
 <p>Here is a list of home nursing services we offer</p>
 <table>
@@ -80,12 +80,14 @@ So you decide your strategy will be to start at the end—come up with the simpl
 
 Here is what you come up with:
 
-`title Nursinos Services Offerered
+```
+title Nursinos Services Offerered
 paragraph Here is a list of home nursing services we offer
 table
  Service Price
  BloodPressureCheck $10
- TemperatureCheck $5`
+ TemperatureCheck $5
+```
 
 Now, we are ready to begin! In this section we will work exclusively with the document above. We will call it the `PriceListPage`. We will parse it and edit it with basic Tree Notation, and then we will create a Tree Language to parse it with types, compile it, and edit it with Visual IDEs.
 
