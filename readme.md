@@ -43,17 +43,18 @@ So you are intrigued by Tree Notation, but you only program in the MonkeyBanana 
 
 In this Section we will role play as a software consultancy shop.
 
-One day your favorite customer, Nursinos—("get the door, it's Nursinos!"), has come in and said "Help! We have a ton of web pages to manage but our nurses doesn't have time for complicated tech and we need a way to make it simpler for them. All our devices run MonkeyBanana, so whatever you build needs to work with that."
+One day your favorite customer, Nursinos—"get the door, it's Nursinos!"——has come in and said "Help! We have thousands of web pages to manage but our nurses doesn't have time for complicated tech and we need a way to make it simpler for them. All our devices run MonkeyBanana, so whatever you build needs to work with that."
 
 Your firm, a savvy group of expert MonkeyBanana Programmers, has a hunch that this "Tree Notation" thing you've seen get 5 or 6 upvotes on Reddit might be exactly what they need. The only problem is there is no way to work with Tree Notation in the MonkeyBanana Programming Language.
 
-That is, until you come along. You know now is the time to make the MonkeyBanana Tree Notation library.
+That is, until you come along. You decide now is the time to make the MonkeyBanana Tree Notation library.
 
-You know that Nursinos has a lot of web pages and their nurses are busy with non-tech things and need an easier way to manage them all. You also know that in the future they are going to have more and more web pages, and that this is a problem they are going to have for a long time, so it makes sense to not rush out a hacky solution but to think from first principles and do it right.
+You know that Nursinos have thousands of web pages and their nurses are busy with non-tech things and need an easier way to manage them all. You also know that in the future they are going to have thousands more web pages, and that this is a problem they are going to have for a long time, so it makes sense to not rush out a hacky solution but to think from first principles and do it right.
 
 You take a look at one of the pages on Nursinos website:
 
-`<title>Nursinos Services Offered</title>
+```
+<title>Nursinos Services Offered</title>
 <p>Here is a list of home nursing services we offer</p>
 <table>
  <thead>
@@ -70,7 +71,8 @@ You take a look at one of the pages on Nursinos website:
       <td>$5</td>
     </tr>
  </tbody>
-<table>`
+<table>
+```
 
 You have a hunch that a "simple design" is a "good design". You have this hunch because one time you visited the Egyptian Museum in Cairo, and noticed that the sandals the Pharaohs wore had the exact same simple design you were wearing on your feet 3,000 years later.
 
