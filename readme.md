@@ -97,7 +97,39 @@ In all of these chapters we expect you will be using the language of your choice
 
 Most general purpose languages should be easy to work with (C, Ruby, Python, Java, Haskell, PHP, etc). However, languages that merely "encode data", aren't really the right tool for the job.
 
-#### Exercises 1
+#### Grid Notation
+
+Before we get to Tree Notation we should take a step back and mention Grid Notation. Tree Notation is a subset of Grid Notation. If Tree Notation is so simple it borders on being dumb, then Grid Notation is downright stupid.
+
+Grid Notation only has 2 things: lines and columns. If you think of Grid Notation as a spreadsheet, you are exactly right. That's pretty much exactly what it is.
+
+Grid Notation defines 2 symbols: a node delimiter symbol (usually new line aka "\n") and a cell delimiter symbol (usually a space, but often a tab).
+
+Simple TSVs and CSVs map really well to Grid Notation. A common strategy in fact, for saving Tree Language programs, is to use the file extension "Tsv" so that you can open and edit your programs with tools like Excel and Google Sheets.
+
+##### Grid Notation Exercises
+
+Create a "GridNotation" class in MonkeyBanana. The constructor should take a string.
+
+Create a unit test file. In your unit tests, pass in the `PriceListPage` string above.
+
+Then add methods to your `GridNotation` class do the following:
+
+1. Count the number of "nodes" in the string. In Grid Notation, one line === one node.
+
+2. Count the number of "cells" in the string. In Grid Notation, one word === one node (unless a tab is used to separate cells, in which case one cell could contain multiple words)
+
+3. Write a method to return the string at node 1, cell 0.
+
+5. Write a method to turn your GridNotation instance back into a string and ensure that `GridNotation(PriceListPage).toString()` === `PriceListPage`.
+
+#### Adding a third symbol to Grid Notation to get Tree Notation
+
+While Grid Notation alone is super useful despite its simplicity we get a ton of new power if we add just one more symbol: the Edge Symbol (usually a space, but often a tab instead).
+
+Grid Notation alone cannot represent nested trees. Once we add that third symbol, we get nested trees and all the power of that (scopes being the biggest one).
+
+#### Tree Notation Exercises
 
 Create a "TreeNotation" class in MonkeyBanana. The constructor should take a string.
 
@@ -116,11 +148,4 @@ Then add methods to your `TreeNotation` class do the following:
 5. Write a method to turn your TreeNotation instance back into a string and ensure that `TreeNotation(PriceListPage).toString()` === `PriceListPage`.
 
 6. Export the document to a JSON object. (Notes: just export strings. Note: at this point there are multiple "correct" answers for how to export the `table` as JSON, since we don't have a higher level Tree Language yet that resolves ambiguities)
-
-#### Exercise 1 Hints
-
-Tree Notation defines 3 delimiters:
-- Node delimiter symbol (usually new line)
-- Cell delimiter symbol (usually a space, but often a tab instead)
-- Edge symbol (usually a space, but often a tab instead)
 
